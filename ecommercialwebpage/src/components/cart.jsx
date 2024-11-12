@@ -6,7 +6,7 @@ const Cart = ({ cart , removeCart , handleQtyUpdate}) => {
             {cart.length > 0 && (
                  <div className='container' >
                     <h3 style={{textAlign:'center'}}>Cart</h3>
-                    <div className='d-flex flex-wrap gap-2 justify-content-center pt-3'>
+                    <div className='d-flex flex-wrap gap-2 justify-content-center gap-0 pt-3'>
                         {cart.map((item, index) => (
                              <div key={index}>
                                 <table>
